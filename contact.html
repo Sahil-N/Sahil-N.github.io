@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Index</title>
+<title>Contact</title>
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -30,25 +30,26 @@
 
 
 
-                    <!-- bio -->
+                    <!-- FORM -->
   <div class="wrapper">
       <div class="FormContainer">
+          <form action="/action_page.php">
             <div id="contacttitle">
-            <p>About Me</p> <br>
+            <p>Contact</p> <br>
           </div>
-          <div class="profilepic clearfix">
-          	  <img src="assets/images/IMG_0459.jpg" id="biopic">
+              <label for="fname">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+              <label for="email">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="name@example.com">
+
+              <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+                  <input type="submit" value="Submit">
+
+            </form>
           </div>
-
-			<div class="abouttext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, molestias, aspernatur? Cumque minima, nulla tempore vitae doloremque officia rem dolore nobis est fugiat id ad iure officiis laborum quidem. Placeat. Cumque minima, nulla tempore vitae doloremque officia rem dolore nobis est fugiat id ad iure officiis laborum.
-              </p>
-              <br>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, molestias, aspernatur? Cumque minima, nulla tempore vitae doloremque officia rem dolore nobis est fugiat id ad iure officiis laborum quidem. Placeat.</p><br>
-              </div>
-       </div>
-         
 
 
 
