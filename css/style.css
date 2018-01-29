@@ -2,32 +2,39 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: 'Bellefair', serif;
   font-weight: 300;
 }
 
 
 
+.profile img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  zoom: 150%;
+}
 
-
-
+  .paisley {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
 
 
 /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ /*XS*/ 
 @media(max-width:767px){
   body #centerbox {
     border: 0px solid;
-    /*padding: 10%;*/
   }
 
   body {
       background: white;
   }
 
-  .paisley {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-  }
+
 
   .name {
     font-color: red;
@@ -42,16 +49,11 @@
     float: right;
     color: black;
     text-align: center;
-    padding: 3px ;
-    text-decoration: none;
-    font-size: 17px;
+    padding: 3px;
   }
 
   .name h1 {
-    text-align: left;
-    font-family: 'Amatic SC', cursive;
     color: red;
-    font-size: 3.0em;
   }
 
   header {
@@ -100,7 +102,79 @@
 /*SM*/ /*SM*/ /*SM*/ /*SM*/ /*SM*/ /*SM*/ /*SM*/ /*SM*/ /*SM*/ 
 @media(min-width:768px){
   body #centerbox {
-        border: 0px solid;
+    border: 0px solid;
+    /*padding: 10%;*/
+  }
+
+  body {
+      background: white;
+  }
+
+  .paisley {
+/*    padding-left: 2.5%;
+    padding-right: 2.5%;*/
+  }
+
+  .name {
+    font-color: red;
+  }
+
+  .topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    /*padding: 3px ;*/
+    text-decoration: none;
+    /*font-size: 2.5em;*/
+  }
+
+  .name h1 {
+    color: blue;
+  }
+
+  header {
+    float: center;
+    width: 100%;
+    height: 65px;
+    background-image:url('../img/paisley.jpg');
+  }
+
+
+  .dev-icons img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .mission-statement p {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    word-spacing: 2px;
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/**@media(min-width:992px){
+
+  body #centerbox {
+    border: 0px solid;
   }
 
   body {
@@ -125,16 +199,11 @@
     float: right;
     color: black;
     text-align: center;
-    padding: 8px 10px;
     text-decoration: none;
-    font-size: 17px;
   }
 
   .name h1 {
-    text-align: left;
-    font-family: 'Amatic SC', cursive;
-    color: green;
-    font-size: 3.0em;
+    color: blue;
   }
 
   header {
@@ -144,46 +213,36 @@
     background-image:url('../img/paisley.jpg');
   }
 
+
   .dev-icons img {
-    height: 150px;
-    width: 150px;
-    padding-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .mission-statement p {
     color: black;
     font-family: 'Amatic SC', cursive;
     word-spacing: 2px;
-    font-size: 2.8em;
+    font-size: 30px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
 /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ /*MD*/ 
-@media(min-width:992px){
-
+/*@media(min-width:992px){
+  
   body {
   background: #707070;
+  border: 10px solid white;
   }
 
   .name h1 {
-    font-family: 'Amatic SC', cursive;
     color: white;
-    font-size: 4em;
   }
 
   .topnav {
@@ -199,7 +258,6 @@
     float: right;
     color: black;
     text-align: center;
-    font-size: 1.4em;
   }
 
   .topnav a:hover {
@@ -210,7 +268,6 @@
   body #centerbox {
     border: 10px solid #aa7243;
     width: auto;
-    /*margin: 0 auto;*/
     margin-top: 0px;
     height: 1800px;
     background: white;
@@ -236,7 +293,7 @@
     height: 105px;
     width: 105px;
     padding-bottom: 10px;
-  }
+  }*/
 
 
 }
@@ -263,16 +320,6 @@
 
 /*PROFILE PIC*/
 
-.profile img {
-  height: 200px;
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-  zoom: 150%;
-}
 
 
 
